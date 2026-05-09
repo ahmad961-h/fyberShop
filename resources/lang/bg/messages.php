@@ -26,10 +26,15 @@ return [
   'Все още няма налични продукти. Скоро ще бъдат добавени нови.',
   'Uncategorized' => 'Без категория',
   'Featured' => 'Препоръчани',
+  'product_deleted_successfully' => 'Продуктът беше изтрит успешно',
+  'product_added_successfully' => 'Продуктът беше добавен успешно',
+  'product_updated_successfully' => 'Продуктът беше обновен успешно',
 
   /* Categories */
   'Shop by category' => 'Пазарувай по категории',
   'No category' => 'Без категория',
+  'category_deleted_successfully' => 'Категорията беше изтрита успешно',
+  'category_added_successfully' => 'Категорията беше добавена успешно',
 
   /* Cart */
   'Your cart' => 'Вашата количка',
@@ -50,7 +55,6 @@ return [
   'Select payment method' => 'Изберете метод на плащане',
   'Place order' => 'Направи поръчка',
   'Stripe' => 'Stripe',
-  'PayPal' => 'PayPal',
   'Google Pay' => 'Google Pay',
   'Cash on delivery' => 'Наложен платеж',
 
@@ -128,6 +132,7 @@ return [
 
 
   /* Orders - Admin */
+  'order_deleted_successfully' => 'Поръчката беше изтрита успешно',
   'Manage Orders subtitle' =>
   'Преглеждайте, актуализирайте и проследявайте поръчките с ясен статус и плащане.',
 

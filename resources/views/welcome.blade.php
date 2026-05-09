@@ -215,7 +215,7 @@
                         <div class="relative aspect-[4/3] w-full bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
                             @if($heroImage && $heroImage->path)
                             <img
-                                src="{{ asset('storage/' . $heroImage->path) }}"
+                                src="{{ asset('fyberShop/public/storage/' . $heroImage->path) }}"
                                 alt="{{ $heroProduct->name }}"
                                 loading="eager"
                                 decoding="async"
@@ -447,7 +447,7 @@
 
                             @if($mainImage)
                             <img
-                                src="{{ asset('storage/' . $mainImage->path) }}"
+                                src="{{ asset('fyberShop/public/storage/' . $mainImage->path) }}"
                                 alt="{{ $product->name }}"
                                 loading="lazy"
                                 decoding="async"

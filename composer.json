@@ -17,6 +17,7 @@
         "stripe/stripe-php": "^18.0"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^3.7",
         "fakerphp/faker": "^1.23",
         "kitloong/laravel-migrations-generator": "^7.2",
         "laravel/breeze": "^2.3",

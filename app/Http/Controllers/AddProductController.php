@@ -62,7 +62,7 @@ class AddProductController extends Controller
 
         return redirect()
             ->route('home')
-            ->with('success', __('messages.Product added successfully'));
+            ->with('success', __('messages.product_added_successfully'));
     }
 
     public function show(AddProduct $product)
@@ -138,7 +138,7 @@ class AddProductController extends Controller
 
         return redirect()
             ->route('products.show', $product)
-            ->with('success', __('messages.Product updated successfully'));
+            ->with('success', __('messages.product_updated_successfully'));
     }
 
     public function destroy(AddProduct $product)
@@ -161,7 +161,7 @@ class AddProductController extends Controller
 
         return redirect()
             ->route('home')
-            ->with('success', __('messages.Product deleted successfully'));
+            ->with('success', __('messages.product_deleted_successfully'));
     }
 
     private function clearHomeCache(): void

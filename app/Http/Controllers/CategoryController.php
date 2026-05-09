@@ -52,7 +52,7 @@ class CategoryController extends Controller
 
         return redirect()
             ->back()
-            ->with('success', __('messages.Category added successfully'));
+            ->with('success', __('messages.category_added_successfully'));
     }
 
     public function destroy(Category $category)
@@ -66,7 +66,7 @@ class CategoryController extends Controller
 
         return redirect()
             ->back()
-            ->with('success', __('messages.Category deleted successfully'));
+            ->with('success', __('messages.category_deleted_successfully'));
     }
 
     private function clearHomeCache(): void

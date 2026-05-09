@@ -14,6 +14,7 @@ return [
     'Quality-focused' => 'Quality-focused',
     'Browse all products' => 'Browse all products',
 
+
     /* Products */
     'Featured Products' => 'Featured Products',
     'Available products' => 'Available products',
@@ -25,9 +26,14 @@ return [
     'No products available' => 'No products are available yet. New items will be added soon.',
     'Uncategorized' => 'Uncategorized',
     'Featured' => 'Featured',
+    'product_deleted_successfully' => 'Product deleted successfully',
+    'product_added_successfully' => 'Product added successfully',
+    'product_updated_successfully' => 'Product updated successfully',
     /* Categories */
     'Shop by category' => 'Shop by category',
     'No category' => 'Uncategorized',
+    'category_deleted_successfully' => 'Category deleted successfully',
+    'category_added_successfully' => 'Category added successfully',
 
     /* Cart */
     'Your cart' => 'Your cart',
@@ -48,7 +54,6 @@ return [
     'Select payment method' => 'Select payment method',
     'Place order' => 'Place order',
     'Stripe' => 'Stripe',
-    'PayPal' => 'PayPal',
     'Google Pay' => 'Google Pay',
     'Cash on delivery' => 'Cash on delivery',
 
@@ -125,6 +130,7 @@ return [
 
 
     /* Orders - Admin */
+    'order_deleted_successfully' => 'Order deleted successfully',
     'Manage Orders subtitle' => 'Review, update, and track customer orders with clear status and payment overview.',
     'Pending' => 'Pending',
     'Processing' => 'Processing',

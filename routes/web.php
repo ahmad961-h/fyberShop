@@ -111,6 +111,11 @@ Route::middleware('auth')->group(function () {
         Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])
             ->name('categories.destroy');
 
+        /*
+         |--------------------------------------------------------------------------
+         | Admin routes
+         |--------------------------------------------------------------------------
+          */
         Route::get('/admin/orders', [OrderController::class, 'index'])
             ->name('admin.orders.index');
 

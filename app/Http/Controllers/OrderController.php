@@ -62,7 +62,7 @@ class OrderController extends Controller
 
         $order->delete();
 
-        return back()->with('success', __('messages.Order deleted successfully'));
+        return back()->with('success', __('messages.order_deleted_successfully'));
     }
 
     public function userIndex()
